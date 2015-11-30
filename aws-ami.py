@@ -8,10 +8,10 @@ ec2 = boto3.resource("ec2", region_name=region)
 instances = ec2.instances.all()
 my_images = ec2.images.filter(Owners=["OWNER_ID"])
 
-#les ami utilisees pour les ec2
+#Ami's used on EC2 instances 
 good_images = set([instance.image_id for instance in ec2.instances.all()])
 
-#les images des launch config
+#Ami's used on autoscaling gps
 client = boto3.client('autoscaling', region_name=region)
 response = client.describe_launch_configurations()
 LC_list=[]
