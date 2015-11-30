@@ -22,7 +22,6 @@ good_images = good_images.union(good_images2)
 
 my_images_dict = {image.id: image for image in my_images if image.id not in good_images}
 
-
 for keys,values in my_images_dict.items():
     print keys,
     d = dateutil.parser.parse(values.creation_date)
