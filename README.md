@@ -1,13 +1,15 @@
 # AWS-cleaning-tools
 
 ### Requirement
--Python
--Boto3
+- Python
+- Boto3
 
 `~/.aws/credentials` file with the following content:
-`[default]
+```bash
+[default]
 aws_access_key_id = YOUR_ACCESS_KEY
-aws_secret_access_key = YOUR_SECRET_KEY`
+aws_secret_access_key = YOUR_SECRET_KEY
+```
 
 We just need a read access.
 
