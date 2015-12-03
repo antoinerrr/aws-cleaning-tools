@@ -13,7 +13,7 @@ aws_secret_access_key = YOUR_SECRET_KEY
 
 We just need a read access.
 
-### Tools
+### Tools (not optimized yet, but do the job)
 - aws-ami.py:
 * Support both EC2, CloudFormation and Lauch config AMI. It list all the unused AMI's
 - aws-ami.py:
