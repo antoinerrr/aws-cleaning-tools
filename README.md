@@ -16,5 +16,5 @@ We just need a read access.
 ### Tools (not optimized yet, but do the job)
 - aws-ami.py:
 * Support both EC2, CloudFormation and Lauch config AMI. It list all the unused AMI's
-- aws-ami.py:
+- aws-security.py:
 * Scan on Cloudformation, LaunchConfig, LoadBalancer, RDS, ElasticCache, Redshift security groups to find unused one
