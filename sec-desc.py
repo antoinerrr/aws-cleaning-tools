@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 import boto3
-from pprint import pprint 
+
 ec2 = boto3.client("ec2")
 IP_POOL = {}
 
